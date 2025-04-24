@@ -2,7 +2,7 @@ import streamlit as st
 
 
 def square(x):
-    return x * x
+    return x + x
 
 
 st.write("# Hello, world!")
