@@ -5,6 +5,10 @@ def square(x):
     return x + x
 
 
+def cube(x):
+    return x * 3
+
+
 st.write("# Hello, world!")
 st.write("Testing some quick stuff")
 st.write("## A simple box")
@@ -16,3 +20,4 @@ with col1:
     )
 if st.button("Click me"):
     st.write(f"You've clicked the button! Square of the number you entered is: {square(number)}")
+    st.write(f"You've clicked the button! Cube of the number you entered is: {cube(number)}")
